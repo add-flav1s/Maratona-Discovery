@@ -8,15 +8,61 @@ body {
     background-color: #E0E0E0;
     font-family: 'Truculenta', sans-serif;
 }
+.container {
+    width: min(90vw, 800px);
+    
+    margin: auto;
+}
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: #3F51B5;
+    font-weight: normal;
+}
 
 /*header*/
 header {
-    background: #37474F;
-    padding: 2rem 0 15rem;
+    background: #2196F3;
+    padding: 2rem 0 10rem;
     text-align: center;
 
 }
 #logo {
     color: #FAFAFA;
     font-weight: 200;
+}
+
+/*balance*/
+#balance {
+    margin-top: -6rem;
+}
+#balance h2 {
+    color: #FAFAFA;
+    margin-top: 0;
+}
+
+/*card*/
+.card {
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: .25rem;
+    margin-bottom: 2rem;
+    color: #3F51B5;
+}
+
+
+/*transaction*/
+
+
+/*footer*/
+footer {
+    background: #1976D2;
+    position:absolute;
+    bottom:0; 
+    width:100%;
+}
+footer p {
+    text-align: center;
+    color: #FAFAFA;
+    font-weight: 500;
 }
