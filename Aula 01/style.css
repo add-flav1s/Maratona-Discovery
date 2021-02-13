@@ -59,6 +59,12 @@ header {
 .card p {
     font-size: 2rem;
     line-height: 3rem;
+    margin-top: 1rem;
+}
+.card.total {
+    background: #0D47A1;
+    color: #FAFAFA;
+    font-weight: bold;
 }
 
 /*transaction*/
