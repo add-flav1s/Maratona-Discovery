@@ -1,0 +1,22 @@
+/*global*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #E0E0E0;
+    font-family: 'Truculenta', sans-serif;
+}
+
+/*header*/
+header {
+    background: #37474F;
+    padding: 2rem 0 15rem;
+    text-align: center;
+
+}
+#logo {
+    color: #FAFAFA;
+    font-weight: 200;
+}
