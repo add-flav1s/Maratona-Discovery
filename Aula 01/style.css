@@ -13,11 +13,10 @@ body {
 }
 .container {
     width: min(90vw, 800px);
-    
     margin: auto;
 }
 h2 {
-    margin-top: 3.2rem;
+    margin-top: 3rem;
     margin-bottom: 0.8rem;
     color: var(--dark-violet);
     font-weight: normal;
@@ -26,7 +25,7 @@ h2 {
 /*header*/
 header {
     background: #2196F3;
-    padding: 2rem 0 10rem;
+    padding: 4rem 0 10rem;
     text-align: center;
 
 }
@@ -37,7 +36,7 @@ header {
 
 /*balance*/
 #balance {
-    margin-top: -6rem;
+    margin-top: -7rem;
 }
 #balance h2 {
     color: #FAFAFA;
@@ -47,9 +46,9 @@ header {
 /*card*/
 .card {
     background: #fff;
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem;
     border-radius: .25rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
     color:  var(--dark-violet);
 }
 .card h3{
@@ -67,18 +66,44 @@ header {
     font-weight: bold;
 }
 
-/*transaction*/
-
-
+/*table*/
+#data-table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+}
+table thead tr th:first-child,
+table tbody tr td:first-child {
+    border-radius: 0.3rem 0 0 0.3rem;
+}
+table tbody tr {
+    opacity: .6;
+}
+table tbody tr:hover {
+    opacity: 1;
+}
+table th {
+    background: #FAFAFA;
+    opacity: 0.6;
+    padding: 1rem 2rem;
+    text-align: left;
+}
+table td {
+    background: #FAFAFA;
+    padding: 1rem 2rem;
+}
+td.description {
+    color: var(--dark-violet);
+}
+td.income{
+    color: #4CAF50;
+}
+.expense {
+ color: #f44336
+}
 /*footer*/
 footer {
-    background: #1976D2;
-    position:absolute;
-    bottom:0; 
-    width:100%;
-}
-footer p {
     text-align: center;
-    color: #FAFAFA;
-    font-weight: 500;
+    padding: 4rem 0 2rem;
+    opacity: .6;
+    color: var(--dark-violet);
 }
